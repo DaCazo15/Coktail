@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Container */
+@import './styles/container/containers.css';
+
+/* Spinner */
+@import './styles/spinner/spin.css';
+
+/* Img de Fondo */
+
+.header {
+  background-image: url('/img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}

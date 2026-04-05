@@ -1,0 +1,48 @@
+{
+  "name": "bebidad-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "run-s lint:*",
+    "lint:oxlint": "oxlint . --fix",
+    "lint:eslint": "eslint . --fix --cache",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.50",
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@openrouter/ai-sdk-provider": "^2.3.3",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.2.2",
+    "ai": "^6.0.146",
+    "axios": "^1.14.0",
+    "bootstrap-icons": "^1.13.1",
+    "marked": "^17.0.5",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.2.2",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "^6.0.4",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-oxlint": "~1.51.0",
+    "eslint-plugin-vue": "~10.8.0",
+    "globals": "^17.4.0",
+    "npm-run-all2": "^8.0.4",
+    "oxlint": "~1.51.0",
+    "prettier": "3.8.1",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.7"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
